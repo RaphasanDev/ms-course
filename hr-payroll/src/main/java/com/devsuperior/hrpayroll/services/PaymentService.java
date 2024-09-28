@@ -14,7 +14,7 @@ public class PaymentService {
 	@Value("${hr-worker.host}")
 	private String workerHost;
 	
-	//Conexao forçada, hardcoded
+	//Conexao forçada, hardcoded colocando a entity do worker dentro desse MS
 	@Autowired
 	private RestTemplate restTemplate;
 	
